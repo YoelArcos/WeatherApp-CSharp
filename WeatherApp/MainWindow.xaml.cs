@@ -19,7 +19,7 @@ namespace WeatherApp
     /// </summary>
     public partial class MainWindow : Window
     {
-        private readonly string apiKey = "055a413c672963bb8a7b4cfa9700d659";
+        private readonly string apiKey = "your_api_Key";
         private string requestUrl = "https://api.openweathermap.org/data/2.5/weather";
         public MainWindow()
         {
